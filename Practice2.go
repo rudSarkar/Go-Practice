@@ -9,6 +9,8 @@ func main() {
 	var Age = 5.5;
 
 	fmt.Println(Age)
+
+	fmt.Printf("Age type is: %T", Age)
 }
 
 // Note: I have confussion about "Derived types".
