@@ -6,7 +6,8 @@ func main() {
 	// Data Types
 
 	//var variable_list optional_data_type;
-	var Age = 5.5; // Static
+	var Age = 5.5 // Static
+	var x float64 = 10
 
 	Name := "Rudra" // Dynamic := meaning is var in shorthand
 	a, b, c := 1, true, "A new day"
@@ -21,6 +22,8 @@ func main() {
 	fmt.Printf("a type is %T\n", a)
 	fmt.Printf("b type is %T\n", b)
 	fmt.Printf("c type is %T\n", c)
+
+	fmt.Printf("x type is %T\n", x)
 
 }
 
